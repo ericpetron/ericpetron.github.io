@@ -77,9 +77,10 @@
 }
 .home-container2 {
   width: 100%;
-  height: 634px;
+  height: 936px;
   display: flex;
   position: relative;
+  align-self: flex-end;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -97,17 +98,15 @@
   margin-right: Infinitypx;
 }
 .home-div3 {
-  top: -Infinitypx;
-  left: -Infinitypx;
-  width: 326px;
-  height: 255px;
+  left: 0px;
+  width: 485px;
+  bottom: 0px;
+  height: 364px;
   position: absolute;
   align-self: flex-start;
 }
 .home-div4 {
-  right: 51px;
-  bottom: 135px;
-  position: absolute;
+  align-self: flex-end;
 }
 .home-social-bar {
   width: 100%;
