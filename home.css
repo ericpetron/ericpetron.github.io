@@ -25,52 +25,32 @@
   text-decoration: underline;
 }
 .home-container1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.home-container2 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.home-container3 {
-  flex: 0 0 auto;
-  width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.home-container4 {
   width: 100%;
   height: 472px;
   display: flex;
+  position: relative;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
+.home-div {
+  width: 372px;
+  height: 202px;
+}
 .home-text04 {
   color: rgb(222, 222, 222);
   margin-top: var(--dl-space-space-fourunits);
-  margin-left: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-sixunits);
 }
 .home-text05 {
   color: rgb(222, 222, 222);
-  font-size: 22px;
+  font-size: 26px;
   align-self: center;
   margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Inter;
   font-weight: 500;
-  margin-left: var(--dl-space-space-unit);
+  line-height: 2;
 }
 .home-text06 {
   font-style: normal;
@@ -87,27 +67,47 @@
 .home-text11 {
   font-style: normal;
 }
-.home-text12 {
-  font-style: normal;
+.home-div1 {
+  top: 91px;
+  right: 51px;
+  width: 279px;
+  height: 290px;
+  position: absolute;
+  align-self: flex-end;
 }
-.home-container5 {
+.home-container2 {
   width: 100%;
-  height: 486px;
+  height: 634px;
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-text13 {
+.home-text12 {
   color: rgb(222, 222, 222);
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-div {
-  width: 100%;
-  height: 100%;
+.home-div2 {
+  width: 600px;
+  height: 1164px;
   align-self: center;
+  margin-right: Infinitypx;
+}
+.home-div3 {
+  top: -Infinitypx;
+  left: -Infinitypx;
+  width: 326px;
+  height: 255px;
+  position: absolute;
+  align-self: flex-start;
+}
+.home-div4 {
+  right: 51px;
+  bottom: 135px;
+  position: absolute;
 }
 .home-social-bar {
   width: 100%;
@@ -117,11 +117,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text14 {
+.home-text13 {
   color: rgb(138, 138, 138);
   font-size: 14px;
 }
-.home-text16 {
+.home-text15 {
   font-style: italic;
 }
 @media(max-width: 767px) {
@@ -135,12 +135,12 @@
     color: rgb(222, 222, 222);
     font-family: Inter;
   }
-  .home-container5 {
+  .home-container2 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
-  .home-text13 {
+  .home-text12 {
     text-align: center;
   }
   .home-social-bar {
